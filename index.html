@@ -1,0 +1,83 @@
+<DOCTYPE! html>
+
+<html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+	<link href="style.css" rel="stylesheet" />
+    <title>My Coding Portfolio </title>
+	<link
+		href="https://fonts.googleapis.com/css?family=Open+Sans"
+		rel="stylesheet" />
+<h1> My Coding Portfolio </h1>
+  <h2> by Viola Yan </h2>
+<body>
+<h2> Coding With Python</h2>
+<p> Python is a computer programming language mostly used for website and software building, task automation, and data analysis. In this course, I used Python and its libraries to analyze datasets and create machine learning models. </p>
+<p>    </p>
+<p>Using Python libraries such as Seaborn and Matplotlib, I created various pairplots, heatmaps, histograms, and scatter plots analyzing correlation, relation,and trends in different columns (values for a certain variable or condition such as presence of a certain gas in the air.) </p>
+<h3> Seaborn</h3>
+<p>Seaborn is one way of visualizing data in Python, and is the only multivariate (meaning a dataset with multiple variables) form of data visulizations.</p>
+<h3>Matplotlib</h3>
+<p>Matplotlib is another way of visualizing data in Python and can visualize both univariate (one variable) and bivariate (two variables) data.</p>
+<h3>Data Visualization Examples</h3>
+<p>Using both Seaborn and Matplotlib, I created two heatmaps. Heatmaps contain values represented by different colors for each value. In this case, each value is the correlation between two variables. The darkest colors represent a strong negative correlation and the lightest colors represent a strong positive correlation. Colors in the middle of the spectrum represent weak positive or weak negative correlations. </p>
+<img src = "matplotlib_heatmap_blank.png" width= 700px > <br>
+  <p>Fig 1: unannotated heatmap using Seaborn and Matplotlib. </p>
+<img src = "matplotlib_heatmap_annotated.png" width=700px>
+  <p>Fig 2: annotated heatmap using Seaborn and Matplotlib. </p>
+<img src = "seaborn_pairgrid.png" width=1000px>
+  <p>Fig 3: Seaborn pairgrid (an example of multivariate data visulization using Seaborn).</p>
+<img src = "seaborn_pairplot_ver1.png" width=1000px>
+  <p>Fig 4: Seaborn pairplot, version 1, showing histograms in the correlation between a variable and itself. </p>
+<img src = "seaborn_pairplot_ver2.png" width=1000px>
+  <p>Fig 5: Seaborn pairplot, version 2, with blank plots in the correlation between a variable and itself. </p>
+<img src = "matplotlib_histograms.png" width=1000px>
+  <p>Fig 6: Matplotlib histograms, showing trends of univariate data. </p>
+<img src = "matplotlib_example_scatter_plot.png" width = 700px>
+  <p>Fig 7: Matplotlib scatter plot, showing the relationship between two variables. </p>
+<h3> Creating Networks </h3>
+<p> Using Python as a coding language, Tensorflow - a machine learning platform, and different datasets, I created different machine learning models. A machine learning model is trained by feeding data into the computer program for the model, which uses the data to adjust its parameters and learn how to complete a task that the model is specifically created to complete. These tasks might be generating an image or text, or classifying an image. Machine learning models often include neural networks, which is a series of connected functions and parameters that adapt to different tasks.</p>
+<h4> Teachable Machine </h4>
+<p> Teachable Machine was the first machine learning model I experimented with. Teachable Machine is a classification model that decides which of a certain class (the original data fed into the machine) an image fits. I trained Teachable Machine to recognizeif a hand was making the motions for rock, paper, and scissors (as in the game Rock Paper Scissors), or neither. The model was exported to Google Colab to create a model that could recognize an image and play against a user. </p>
+<img src = "rps_model_example1.jpg"><br>
+<img src = "rps_model_example2.jpg" width = 600px><br>
+<img src = "rps_model_example3.jpg"> 
+<p> Figs 8-10: Teachable Machine coding and results</p>
+<h4> MNIST Dataset </h4>
+<p> The MNIST dataset is a set of images. These images are the handwritten numbers 0-9 in black and white. The model was trained to take an image input from the MNIST dataset and recognize which number it was, based on its previous training. </p>
+<p> In addition to creating a densely connected model, which works best with extremely well-defined parameters and situations as seen in the MNIST dataset, I also created a convulutional neural network for the MNIST dataset. Convolution neural networks, or CNNs, are modeled after the thinking and recognition process of the human brain, and can extract more general information (with less defined problems) than a conventional model. \
+<h4> CIFAR Dataset </h4>
+<p> The CIFAR dataset contains more general images than the MNIST dataset. These images are pictures of vehicles and animals, with the shape of the vehicle or animal blurred out. The model is trained to input the image, recognize the shape, and classify what the image is. </p>
+<img src = "cifar.jpg">
+<p> Fig 11: CIFAR dataset model summary </p>
+<h4> Sentiment Analysis </h4>
+<p> A third neural network I created analyzed text sentiment in fake reviews for fictional products. </p>
+<img src = "sentiment_analysis.jpg"> <br>
+<img src = "sentiment_analysis2.jpg" width = 200px> <br>
+<img src = "sentiment_analysis3.jpg">
+<p> Figs 12-14: Sentiment Analysis coding and prediction</p>
+<h4> Text Generation with RNN </h4>
+<p> Recurrent neural networks, or RNNs, can classify sequential data (such as text or video) using the context of the data. For example, if you were asked to tell which direction a ball would go in from a single image, you wouldn't. However, you would be able to tell which way the ball was going in if you were given a video of the ball being kicked through the air. </p>
+<img src = "rnn.jpg"> <br>
+<img src = "rnn2.jpg"> <br>
+<img src = "rnn3.jpg"> <br>
+<img src = "rnn4.jpg"> <br>
+<img src = "rnn5.jpg"> 
+<p> Figs 15-19: RNN coding and generation </p>
+<h2> Coding with HTML and CSS </h2>
+<h3> HTML </h3>
+<p> HTML is a markup language used to structure a web page and its content using elements. Elements are composed of opening tags, closing tags, and the content. </p>
+<p> Opening tags contain the name of the element (for example, to make a new paragraph, the name of the element is p), contained in opening and closing angle brackets like this: </p><img src = "html_example1.jpg"><br>
+<p> Closing tags contain the name of the element with a forward slash before the element name, and are also wrapoped in angle brackets, like this:</p>
+<img src = "html_example2.jpg"> <br>
+<p> The content is what the opening and closing tags format, such as text. </p>
+<p> Together, an element looks like this: </p>
+<img src = "html_example3.jpg"> <br>
+<p> You can also "nest" elements together. For example, you can emphasis a certain word in text by adding an emphasis element around the word, with the whole sentence contained by the paragraph element. 
+<h3> CSS </h3>
+<p> CSS is a style sheet language used to style web content. With CSS, you can make text different colors or fonts, add background images or colors, or display content in a certain way. </p>
+<p> Using my knowledge of HTML and CSS, I designed this website, among others. 
+</body>
+</html>
